@@ -1,0 +1,42 @@
+{
+  "name": "arajajyothibabu",
+  "version": "0.0.1",
+  "description": "A personal card for Jyothi Babu Araja (D@arajajyothibabu)",
+  "main": "./bin/card.js",
+  "bin": {
+    "arajajyothibabu": "./bin/card.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arajajyothibabu/arajajyothibabu.git"
+  },
+  "keywords": [
+    "card",
+    "profile",
+    "business card",
+    "npm",
+    "npx"
+  ],
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "author": "Jyothi Babu Araja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arajajyothibabu/arajajyothibabu/issues"
+  },
+  "homepage": "https://github.com/arajajyothibabu/arajajyothibabu#readme",
+  "devDependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "standard": "^14.3.4"
+  }
+}
